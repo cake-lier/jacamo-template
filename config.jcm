@@ -1,0 +1,5 @@
+mas hello_world {
+    agent hello_world_agent
+
+    asl-path: "src/main/agents"
+}
