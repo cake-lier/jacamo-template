@@ -32,11 +32,27 @@ dependencies {
 
 sourceSets {
     main {
+        java {
+            srcDir("src/main/java")
+            srcDir("src/main/jade")
+            srcDir("src/main/cartago")
+        }
         resources {
-            srcDir("src/main/environment")
-            srcDir("src/main/agents")
-            srcDir("src/main/organizations")
             srcDir("src/main/resources")
+            srcDir("src/main/jason")
+            srcDir("src/main/moise")
+        }
+    }
+    test {
+        java {
+            srcDir("test/main/java")
+            srcDir("test/main/jade")
+            srcDir("test/main/cartago")
+        }
+        resources {
+            srcDir("test/main/resources")
+            srcDir("test/main/jason")
+            srcDir("test/main/moise")
         }
     }
 }
