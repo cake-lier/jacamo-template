@@ -6,8 +6,8 @@ A template repository for creating new JaCaMo-based applications.
 
 Exactly what the title says,
 this is a template repository to create hassle-free JaCaMo applications without starting from scratch.
-You can adjust the "config.jcm" file as you wish to add or removing all the configuration that you need,
-but please **don't** touch the "asl-path" property.
+You can adjust the "config.jcm" file as you wish to add or remove all the configuration that you need,
+but please **don't** touch the "asl-path", "java-path" and "org-path" properties.
 
 ## How to run it?
 
